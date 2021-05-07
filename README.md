@@ -36,4 +36,5 @@ copy paste this code in the last line in .profile
 type this in terminal
 
 > source .profile (your good to go)
+
 > bash diwu.sh (without root)
