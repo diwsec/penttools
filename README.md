@@ -10,8 +10,8 @@ for linux click here https://golang.org/dl/go1.16.4.linux-amd64.tar.gz
 
 go to the download directory and copy paste it
 
-sudo tar -xzvf (go downloaded file) -C /usr/local/>
-cd>
+1sudo tar -xzvf (go downloaded file) -C /usr/local/
+2cd
 mkdir go
 cd go
 mkdir bin pkg src
