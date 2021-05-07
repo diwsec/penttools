@@ -11,18 +11,28 @@ for linux click here https://golang.org/dl/go1.16.4.linux-amd64.tar.gz
 go to the download directory and copy paste it
 
 sudo tar -xzvf (go downloaded file) -C /usr/local/
+
 cd
+
 mkdir go
+
 cd go
+
 mkdir bin pkg src
+
 cd
+
 vim .profile
+
 
 copy paste this code in the last line in .profile
 
 > export GOPATH=~/go
+
 > export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
+> save it.
+ 
 type this in terminal
 
 > source .profile (your good to go)
