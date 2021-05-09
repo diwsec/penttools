@@ -61,6 +61,10 @@ echo "installing meg"
 go get -u github.com/tomnomnom/meg
 echo "done"
 
+echo "installing hakrawler"
+go get github.com/hakluke/hakrawler
+echo "done"
+
 echo "installing fff"
 go get -u github.com/tomnomnom/fff
 echo "done"
