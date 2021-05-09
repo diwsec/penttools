@@ -43,6 +43,11 @@ git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
 echo "done"
 
+echo "installing scripthunter"
+git clone https://github.com/robre/scripthunter.git
+cd ~/tools/
+echo "done"
+
 echo "installing PWN sever status"
 git clone https://github.com/mazen160/server-status_PWN.git
 cd ~/tools/
