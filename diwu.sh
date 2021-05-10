@@ -48,6 +48,11 @@ git clone https://github.com/robre/scripthunter.git
 cd ~/tools/
 echo "done"
 
+echo "installing jsparser"
+https://github.com/foysalcodeio/JS_Parser.git
+cd ~/tools/
+echo "done"
+
 echo "installing PWN sever status"
 git clone https://github.com/mazen160/server-status_PWN.git
 cd ~/tools/
