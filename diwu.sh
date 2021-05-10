@@ -11,6 +11,7 @@ sudo apt-get -y autoclean
 
 sudo apt-get install -y sublist3r
 sudo apt-get install -y cmatrix
+sudo apt-get install -y npm
 sudo apt-get install -y jq
 sudo apt-get install -y ruby-full
 sudo apt-get install -y htop
