@@ -45,6 +45,11 @@ git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
 echo "done"
 
+echo "installing virtual-host-discovery"
+https://github.com/jobertabma/virtual-host-discovery.git
+cd ~/tools/
+echo "done"
+
 echo "installing scripthunter"
 git clone https://github.com/robre/scripthunter.git
 cd ~/tools/
