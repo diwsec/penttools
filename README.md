@@ -36,3 +36,5 @@ type this in terminal
 > source .profile (your good to go)
 
 > bash diwu.sh (without root)
+
+happy hacking!
