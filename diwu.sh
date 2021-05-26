@@ -70,6 +70,11 @@ https://github.com/foysalcodeio/JS_Parser.git
 cd ~/tools/
 echo "done"
 
+echo "installing Eyewitness"
+git clone https://github.com/FortyNorthSecurity/EyeWitness.git
+cd ~/tools/
+echo "done"
+
 echo "installing PWN sever status"
 git clone https://github.com/mazen160/server-status_PWN.git
 cd ~/tools/
