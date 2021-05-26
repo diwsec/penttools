@@ -60,7 +60,7 @@ cd ~/tools/
 echo "done"
 
 echo "installing jsparser"
-https://github.com/foysalcodeio/JS_Parser.git
+git clone https://github.com/foysalcodeio/JS_Parser.git
 cd ~/tools/
 echo "done"
 
