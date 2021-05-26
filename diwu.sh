@@ -46,7 +46,17 @@ cd ~/tools/
 echo "done"
 
 echo "installing virtual-host-discovery"
-https://github.com/jobertabma/virtual-host-discovery.git
+git clone https://github.com/jobertabma/virtual-host-discovery.git
+cd ~/tools/
+echo "done"
+
+echo "installing Linkfinder"
+git clone https://github.com/GerbenJavado/LinkFinder.git
+cd ~/tools/
+echo "done"
+
+echo "paramspider"
+git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
