@@ -10,7 +10,6 @@ sudo apt-get -y autoclean
 
 
 sudo apt-get install -y sublist3r
-sudo apt-get install -y cmatrix
 sudo apt-get install -y npm
 sudo apt-get install -y altdns
 sudo apt-get install -y jq
@@ -52,11 +51,6 @@ echo "done"
 
 echo "installing Linkfinder"
 git clone https://github.com/GerbenJavado/LinkFinder.git
-cd ~/tools/
-echo "done"
-
-echo "paramspider"
-git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
