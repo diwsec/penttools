@@ -23,7 +23,8 @@ If you are not sure which shell you have, then run the command
 > echo $SHELL
 
 If it displays: 
-> /bin/bash – means you have Bash 
+> /bin/bash – means you have Bash
+
 > /usr/bin/zsh – means you have ZSH
 
 Now install the bash.
