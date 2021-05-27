@@ -131,6 +131,15 @@ echo "installing anew"
 go get -u github.com/tomnomnom/anew
 echo "done"
 
+echo "installing Gf"
+go get -u github.com/tomnomnom/gf
+echo "done installing gf, dont forget to add the patterns"
+
+echo "Gf patterns"
+echo "cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf"
+echo "installing GF patterns"
+git clone https://github.com/1ndianl33t/Gf-Patterns.git
+mv ~/Gf-Patterns/*.json ~/.gf
 
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
