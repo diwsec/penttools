@@ -9,7 +9,9 @@ Now open .zshrc for exporting the following environment variables
 type this in terminal
 
 > vim ~/.zshrc
+
 > export GOPATH=/home/$USER/go
+
 > export PATH=${PATH}:$GOROOT/bin:/home/$USER/go/bin
 
 These changes will take effect after a reboot. Instead of restarting your computer, run
