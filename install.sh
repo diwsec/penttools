@@ -136,8 +136,9 @@ go get -u github.com/tomnomnom/gf
 echo "done installing gf, dont forget to add the patterns"
 
 echo "Gf patterns"
-echo "cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf"
+cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
 echo "installing GF patterns"
+cd ~
 git clone https://github.com/1ndianl33t/Gf-Patterns.git
 mv ~/Gf-Patterns/*.json ~/.gf
 
