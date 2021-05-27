@@ -27,7 +27,8 @@ If it displays:
 
 > /usr/bin/zsh – means you have ZSH
 
-Now install the bash.
+# Now install the bash script to install the tools
+
 > bash diwu.sh
 
 happy hacking!
