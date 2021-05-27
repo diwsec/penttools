@@ -1,40 +1,30 @@
 its a bash script for tool automation
 
-requirements >
+To install, run the command: 
 
-1. install go: for linux click here https://golang.org/dl/go1.16.4.linux-amd64.tar.gz
+> sudo apt install golang
 
-2. setup go (many ways but i like this method)
-
-go to the download directory and copy paste it
-
-sudo tar -xzvf (go downloaded file) -C /usr/local/
-
-cd
-
-mkdir go
-
-cd go
-
-mkdir bin pkg src
-
-cd
-
-vim .profile
-
-
-copy paste this code in the last line in .profile
-
-> export GOPATH=~/go
-
-> export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
-
-> save it.
+Now open .zshrc for exporting the following environment variables
  
 type this in terminal
 
-> source .profile (your good to go)
+> vim ~/.zshrc
+> export GOPATH=/home/$USER/go
+> export PATH=${PATH}:$GOROOT/bin:/home/$USER/go/bin
 
-> bash diwu.sh (without root)
+These changes will take effect after a reboot. Instead of restarting your computer, run
+
+>source ~/.zshrc
+
+If you are not sure which shell you have, then run the command
+
+> echo $SHELL
+
+If it displays: 
+> /bin/bash – means you have Bash 
+> /usr/bin/zsh – means you have ZSH
+
+Now install the bash.
+> bash diwu.sh
 
 happy hacking!
