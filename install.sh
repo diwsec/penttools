@@ -14,6 +14,7 @@ sudo apt-get install -y npm
 sudo apt-get install -y altdns
 sudo apt-get install -y jq
 sudo apt-get install -y ruby-full
+sudo apt-get install -y libpcap-dev
 sudo apt-get install -y htop
 sudo apt-get install -y knockpy
 sudo apt-get install -y python-setuptools
@@ -109,6 +110,10 @@ echo "done"
 
 echo "installing ffuf"
 go get -u github.com/ffuf/ffuf
+echo "done"
+
+echo "installing naabu"
+GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
 echo "done"
 
 echo "installing gau"
