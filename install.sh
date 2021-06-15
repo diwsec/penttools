@@ -132,6 +132,10 @@ echo "installing httpx"
 GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx
 echo "done"
 
+echo "installing qsreplace"
+go get -u github.com/tomnomnom/qsreplace
+echo "done"
+
 echo "installing anew"
 go get -u github.com/tomnomnom/anew
 echo "done"
