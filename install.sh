@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "WITH GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
+figlet diwusec
 
+echo "WITH GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
 
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
@@ -170,4 +171,4 @@ echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 
 ls -la
 
-echo " happy hacking!"
+figlet "happy hacking!"
