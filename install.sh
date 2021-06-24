@@ -9,9 +9,10 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
 
-
-sudo apt-get install -y npm
 sudo apt-get install -y jq
+sudo apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
+sudo apt-get install -y libssl-dev libffi-dev python-dev
+sudo apt-get install -y rename
 sudo apt-get install -y ruby-full
 sudo apt-get install -y libpcap-dev
 sudo apt-get install -y htop
@@ -168,3 +169,5 @@ mkdir ~/gorecon
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 
 ls -la
+
+echo "happy hacking"
