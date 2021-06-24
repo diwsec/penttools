@@ -18,7 +18,6 @@ sudo apt-get install -y htop
 sudo apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev libgmp-dev zlib1g-dev
 sudo apt-get install -y libssl-dev libffi-dev python-dev
 sudo apt-get install -y libldns-dev
-sudo apt-get install -y python-dnspython
 sudo apt-get install -y python-setuptools
 sudo apt-get install -y build-essential
 sudo apt-get install -y python3-pip
