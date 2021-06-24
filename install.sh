@@ -2,7 +2,7 @@
 
 figlet diwusec
 
-echo "WITH GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
+echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
 
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
