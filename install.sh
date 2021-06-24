@@ -40,14 +40,16 @@ sudo apt-get install -y dirsearch
 sudo gem install aquatone
 sudo apt-get install -y golang
 
+echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
-
+echo "moving ./feroxbuster to /usr/local/bin"
 sudo mv feroxbuster /usr/local/bin
+echo "done"
 
-#create a tools folder in ~/
+echo "creating a tools folder in ~/"
 mkdir ~/tools
 cd ~/tools/
-
+echo "done"
 
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
@@ -155,7 +157,7 @@ echo "done"
 
 echo "installing Gf"
 go get -u github.com/tomnomnom/gf
-echo "done installing gf, dont forget to add the patterns"
+echo "done installing gf, now adding the patterns"
 
 echo "Gf patterns"
 cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
