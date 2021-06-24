@@ -28,7 +28,6 @@ sudo apt-get install -y masscan
 sudo apt-get install -y etherape
 sudo apt-get install -y tree
 sudo apt-get install -y gospider
-sudo apt-get install -y scrapy
 sudo apt-get install -y sublist3r
 sudo apt-get install -y altdns
 sudo apt-get install -y knockpy
