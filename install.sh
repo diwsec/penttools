@@ -27,9 +27,11 @@ sudo apt-get install -y arjun
 sudo apt-get install -y geany
 sudo apt-get install -y massdns
 sudo apt-get install -y masscan
-sudo apt-get install -y bettercap
 sudo apt-get install -y etherape
 sudo apt-get install -y tree
+sudo apt-get install -y gospider
+sudo apt-get install -y feroxbuster
+sudo apt-get install -y scrapy
 sudo gem install aquatone
 
 
@@ -60,11 +62,6 @@ git clone https://github.com/robre/scripthunter.git
 cd ~/tools/
 echo "done"
 
-echo "installing jsparser"
-git clone https://github.com/foysalcodeio/JS_Parser.git
-cd ~/tools/
-echo "done"
-
 echo "installing Eyewitness"
 git clone https://github.com/FortyNorthSecurity/EyeWitness.git
 cd ~/tools/
@@ -75,6 +72,15 @@ git clone https://github.com/mazen160/server-status_PWN.git
 cd ~/tools/
 echo "done"
 
+echo "installing paramspider"
+git clone https://github.com/devanshbatham/ParamSpider.git
+cd ~/tools/
+echo "done"
+
+echo "installing gitgraber"
+git clone https://github.com/hisxo/gitGraber.git
+cd ~/tools/
+echo "done"
 
 echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
