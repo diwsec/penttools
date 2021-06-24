@@ -37,6 +37,7 @@ sudo apt-get install -y knockpy
 sudo apt-get install -y arjun
 sudo apt-get install -y dirsearch
 sudo gem install aquatone
+sudo apt-get install -y golang
 
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
 
@@ -45,7 +46,6 @@ sudo mv feroxbuster /usr/local/bin
 #create a tools folder in ~/
 mkdir ~/tools
 cd ~/tools/
-
 
 
 echo "installing dirsearch"
@@ -87,18 +87,6 @@ echo "installing gitgraber"
 git clone https://github.com/hisxo/gitGraber.git
 cd ~/tools/
 echo "done"
-
-echo "looks like you didnt install and configure go"
-sudo apt install golang
-
->> ~/.bash_profile
-
-echo 'export GOPATH=/home/$USER/go' >> ~/.bash_profile
-
-echo 'export PATH=${PATH}:$GOROOT/bin:/home/$USER/go/bin' >> ~/.bash_profile
-
-source ~/.zshrc
-
 
 echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
@@ -175,17 +163,11 @@ cd ~
 git clone https://github.com/1ndianl33t/Gf-Patterns.git
 mv ~/Gf-Patterns/*.json ~/.gf
 
-
-echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
-
-
-ls -la
-
 echo "create a recon folder in ~/"
 mkdir ~/gorecon
 
+echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 
-echo " L       A       T       O       M   !"
-
+ls -la
 
 echo " happy hacking!"
