@@ -91,9 +91,11 @@ echo "done"
 echo "looks like you didnt install and configure go"
 sudo apt install golang
 
-export GOPATH=/home/$USER/go
+>> ~/.bash_profile
 
-export PATH=${PATH}:$GOROOT/bin:/home/$USER/go/bin
+echo 'export GOPATH=/home/$USER/go' >> ~/.bash_profile
+
+echo 'export PATH=${PATH}:$GOROOT/bin:/home/$USER/go/bin' >> ~/.bash_profile
 
 source ~/.zshrc
 
