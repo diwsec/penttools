@@ -171,5 +171,3 @@ mkdir ~/gorecon
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 
 ls -la
-
-figlet "happy hacking!"
