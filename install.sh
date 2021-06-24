@@ -9,32 +9,34 @@ sudo apt-get -y autoremove
 sudo apt-get -y autoclean
 
 
-sudo apt-get install -y sublist3r
 sudo apt-get install -y npm
-sudo apt-get install -y altdns
 sudo apt-get install -y jq
 sudo apt-get install -y ruby-full
 sudo apt-get install -y libpcap-dev
 sudo apt-get install -y htop
-sudo apt-get install -y knockpy
 sudo apt-get install -y python-setuptools
 sudo apt-get install -y build-essential
 sudo apt-get install -y python3-pip
 sudo apt-get install -y gcc
 sudo apt-get install -y torbrowser-launcher
 sudo apt-get install -y alacarte
-sudo apt-get install -y arjun
 sudo apt-get install -y geany
 sudo apt-get install -y massdns
 sudo apt-get install -y masscan
 sudo apt-get install -y etherape
 sudo apt-get install -y tree
 sudo apt-get install -y gospider
-sudo apt-get install -y feroxbuster
 sudo apt-get install -y scrapy
+sudo apt-get install -y sublist3r
+sudo apt-get install -y altdns
+sudo apt-get install -y knockpy
+sudo apt-get install -y arjun
+sudo apt-get install -y dirsearch
 sudo gem install aquatone
 
+curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
 
+sudo mv feroxbuster /usr/local/bin
 
 #create a tools folder in ~/
 mkdir ~/tools
@@ -67,13 +69,13 @@ git clone https://github.com/FortyNorthSecurity/EyeWitness.git
 cd ~/tools/
 echo "done"
 
-echo "installing PWN sever status"
-git clone https://github.com/mazen160/server-status_PWN.git
+echo "installing paramspider"
+git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
-echo "installing paramspider"
-git clone https://github.com/devanshbatham/ParamSpider.git
+echo "installing lazys3"
+git clone https://github.com/nahamsec/lazys3.git
 cd ~/tools/
 echo "done"
 
