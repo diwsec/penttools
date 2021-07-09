@@ -53,18 +53,8 @@ git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
 echo "done"
 
-echo "installing virtual-host-discovery"
-git clone https://github.com/jobertabma/virtual-host-discovery.git
-cd ~/tools/
-echo "done"
-
 echo "installing Linkfinder"
 git clone https://github.com/GerbenJavado/LinkFinder.git
-cd ~/tools/
-echo "done"
-
-echo "installing scripthunter"
-git clone https://github.com/robre/scripthunter.git
 cd ~/tools/
 echo "done"
 
@@ -75,16 +65,6 @@ echo "done"
 
 echo "installing paramspider"
 git clone https://github.com/devanshbatham/ParamSpider.git
-cd ~/tools/
-echo "done"
-
-echo "installing lazys3"
-git clone https://github.com/nahamsec/lazys3.git
-cd ~/tools/
-echo "done"
-
-echo "installing gitgraber"
-git clone https://github.com/hisxo/gitGraber.git
 cd ~/tools/
 echo "done"
 
@@ -100,8 +80,12 @@ echo "installing meg"
 go get -u github.com/tomnomnom/meg
 echo "done"
 
-echo "installing hakrawler"
-go get github.com/hakluke/hakrawler
+echo "installing subjs"
+GO111MODULE=on go get -u -v github.com/lc/subjs
+echo "done"
+
+echo "installing getJS"
+go get github.com/003random/getJS
 echo "done"
 
 echo "installing fff"
