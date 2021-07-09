@@ -60,8 +60,6 @@ git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
 echo "done"
 
-echo "installing relative-url-extractor"
-git clone https://github.com/jobertabma/relative-url-extractor.git
 cd ~/tools/
 echo "done"
 
