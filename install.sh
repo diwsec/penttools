@@ -94,10 +94,6 @@ echo "installing meg"
 go get -u github.com/tomnomnom/meg
 echo "done"
 
-echo "installing subjs"
-GO111MODULE=on go get -u -v github.com/lc/subjs
-echo "done"
-
 echo "installing getJS"
 go get github.com/003random/getJS
 echo "done"
