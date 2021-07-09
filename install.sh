@@ -11,6 +11,7 @@ sudo apt-get -y autoclean
 
 sudo apt-get install -y jq
 sudo apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
+sudo apt-get install -y python3-dnspython
 sudo apt-get install -y libssl-dev libffi-dev python-dev
 sudo apt-get install -y rename
 sudo apt-get install -y ruby-full
