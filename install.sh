@@ -54,6 +54,11 @@ git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
 echo "done"
 
+echo "installing DumpsterDiver" 
+git clone https://github.com/securing/DumpsterDiver.git
+cd ~/tools/
+echo "done"
+
 echo "installing Linkfinder"
 git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
