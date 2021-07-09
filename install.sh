@@ -33,11 +33,9 @@ sudo apt-get install -y sublist3r
 sudo apt-get install -y altdns
 sudo apt-get install -y knockpy
 sudo apt-get install -y arjun
-sudo apt-get install -y jsbeautifier
 sudo apt-get install -y dirsearch
 sudo apt-get install -y parallel
 sudo gem install aquatone
-sudo pip3 install jsbeautifier
 sudo apt-get install -y golang
 
 echo "installing feroxbuster"
@@ -58,9 +56,6 @@ echo "done"
 
 echo "installing Linkfinder"
 git clone https://github.com/GerbenJavado/LinkFinder.git
-cd ~/tools/
-echo "done"
-
 cd ~/tools/
 echo "done"
 
