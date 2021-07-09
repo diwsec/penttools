@@ -33,8 +33,10 @@ sudo apt-get install -y sublist3r
 sudo apt-get install -y altdns
 sudo apt-get install -y knockpy
 sudo apt-get install -y arjun
+sudo apt-get install -y jsbeautifier
 sudo apt-get install -y dirsearch
 sudo gem install aquatone
+sudo pip3 install jsbeautifier
 sudo apt-get install -y golang
 
 echo "installing feroxbuster"
