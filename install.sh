@@ -160,6 +160,11 @@ mkdir ~/gorecon
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 
+sudo apt-get -y update
+sudo apt-get -y dist-upgrade
+sudo apt-get -y autoremove
+sudo apt-get -y autoclean
+
 ls -la
 
 echo "happy hacking"
