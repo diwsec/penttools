@@ -69,6 +69,7 @@ echo "installing S3Scanner"
 git clone https://github.com/sa7mon/S3Scanner.git
 cd ~/tools/
 echo "done"
+echo "Don't Forget To CONFIGURE AWS > aws configure"
 
 echo "installing Eyewitness"
 git clone https://github.com/FortyNorthSecurity/EyeWitness.git
