@@ -58,6 +58,13 @@ git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
 echo "done"
 
+echo "install slurp"
+git clone https://github.com/0xbharath/slurp.git
+cd slurp
+go build
+cd ~/tools/
+echo "done"
+
 echo "installing Eyewitness"
 git clone https://github.com/FortyNorthSecurity/EyeWitness.git
 cd ~/tools/
