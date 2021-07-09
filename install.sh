@@ -68,6 +68,11 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
+echo "installing S3Scanner"
+git clone https://github.com/sa7mon/S3Scanner.git
+cd ~/tools/
+echo "done"
+
 echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
 echo "done"
