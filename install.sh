@@ -14,7 +14,6 @@ sudo apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ru
 sudo apt-get install -y libssl-dev libffi-dev python-dev
 sudo apt-get install -y rename
 sudo apt-get install -y ruby-full
-sudo apt-get install -y npm
 sudo apt-get install -y libpcap-dev
 sudo apt-get install -y htop
 sudo apt-get install -y libldns-dev
@@ -24,9 +23,7 @@ sudo apt-get install -y python3-pip
 sudo apt-get install -y gcc
 sudo apt-get install -y torbrowser-launcher
 sudo apt-get install -y geany
-sudo apt-get install -y massdns
 sudo apt-get install -y masscan
-sudo apt-get install -y etherape
 sudo apt-get install -y tree
 sudo apt-get install -y sublist3r
 sudo apt-get install -y altdns
@@ -50,11 +47,6 @@ echo "done"
 
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
-cd ~/tools/
-echo "done"
-
-echo "installing DumpsterDiver" 
-git clone https://github.com/securing/DumpsterDiver.git
 cd ~/tools/
 echo "done"
 
