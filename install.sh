@@ -56,18 +56,15 @@ git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
 echo "done"
 
-echo "install slurp"
-git clone https://github.com/0xbharath/slurp.git
-cd slurp
-go build
+echo "installing secretfinder"
+git clone https://github.com/m4ll0k/SecretFinder.git
 cd ~/tools/
 echo "done"
 
-echo "installing S3Scanner"
-git clone https://github.com/sa7mon/S3Scanner.git
+echo "installing corsy"
+git clone https://github.com/s0md3v/Corsy.git
 cd ~/tools/
 echo "done"
-echo "Don't Forget To CONFIGURE AWS > aws configure"
 
 echo "installing Eyewitness"
 git clone https://github.com/FortyNorthSecurity/EyeWitness.git
