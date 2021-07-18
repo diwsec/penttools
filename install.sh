@@ -56,6 +56,11 @@ git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
 echo "done"
 
+echo "installing noslqi"
+git clone https://github.com/Charlie-belmer/nosqli.git
+cd ~/tools/
+echo "done"
+
 echo "installing corsy"
 git clone https://github.com/s0md3v/Corsy.git
 cd ~/tools/
