@@ -56,13 +56,13 @@ git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
 echo "done"
 
-echo "installing secretfinder"
-git clone https://github.com/m4ll0k/SecretFinder.git
+echo "installing corsy"
+git clone https://github.com/s0md3v/Corsy.git
 cd ~/tools/
 echo "done"
 
-echo "installing corsy"
-git clone https://github.com/s0md3v/Corsy.git
+echo "installing corstest"
+git clone https://github.com/RUB-NDS/CORStest.git
 cd ~/tools/
 echo "done"
 
@@ -76,9 +76,16 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
-
 echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
+echo "done"
+
+echo "installing proxify"
+GO111MODULE=on go get -v github.com/projectdiscovery/proxify/cmd/proxify
+echo "done"
+
+echo "installing dnsx"
+GO111MODULE=on go get -v github.com/projectdiscovery/dnsx/cmd/dnsx
 echo "done"
 
 echo "installing gron"
