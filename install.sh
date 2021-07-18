@@ -32,7 +32,7 @@ sudo apt-get install -y knockpy
 sudo apt-get install -y arjun
 sudo apt-get install -y dirsearch
 sudo apt-get install -y parallel
-sudo apt-get install -y jsbeaytifier
+sudo apt-get install -y jsbeautifier
 sudo apt-get install -y uglifyjs
 sudo gem install aquatone
 sudo apt-get install -y golang
