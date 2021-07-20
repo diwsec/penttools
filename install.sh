@@ -1,3 +1,7 @@
+#!/bin/bash
+
+figlet diwusec
+
 echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
 
 sudo apt-get -y update
@@ -17,24 +21,22 @@ sudo apt-get install -y libldns-dev
 sudo apt-get install -y python-setuptools
 sudo apt-get install -y build-essential
 sudo apt-get install -y python3-pip
-sudo apt-get install -y python
-sudo apt-get install -y curl
-sudo apt-get install -y git
-sudo apt-get install -y default-jdk
-sudo apt-get install -y gpgv2 autoconf bison postgresql libaprutil1 openssl libpq-dev libreadline6-dev libreadline-dev libsqlite3-dev libssl-dev locate
-sudo apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev postgresql-contrib xsel zlib1g git-core gawk libffi-dev libgdm-dev libncurses5-dev dirmngr python3-magic
-sudo apt-get install -y wine wine32 
 sudo apt-get install -y gcc
 sudo apt-get install -y npm
+sudo apt-get install -y torbrowser-launcher
+sudo apt-get install -y geany
+sudo apt-get install -y masscan
 sudo apt-get install -y tree
-sudo apt-get install -y vim
-sudo apt-get install -y wireshark
+sudo apt-get install -y sublist3r
+sudo apt-get install -y altdns
 sudo apt-get install -y knockpy
+sudo apt-get install -y arjun
+sudo apt-get install -y dirsearch
 sudo apt-get install -y parallel
 sudo apt-get install -y jsbeautifier
 sudo apt-get install -y uglifyjs
-sudo apt-get install -y sqlmap
 sudo gem install aquatone
+sudo apt-get install -y golang
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
@@ -42,19 +44,8 @@ echo "moving ./feroxbuster to /usr/local/bin"
 sudo mv feroxbuster /usr/local/bin
 echo "done"
 
-echo "installing metasploit"
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall && \
-  ./msfinstall
-echo "done"
-
 echo "creating a tools folder in ~/"
 mkdir ~/tools
-cd ~/tools/
-echo "done"
-
-echo "installing seclists"
-git clone https://github.com/danielmiessler/SecLists.git
 cd ~/tools/
 echo "done"
 
@@ -179,7 +170,7 @@ echo "installing Gf"
 go get -u github.com/tomnomnom/gf
 echo "done installing gf, now adding the patterns"
 
-echo -e "/n/nGf patterns"
+echo "Gf patterns"
 cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
 echo "installing GF patterns"
 cd ~
@@ -189,7 +180,7 @@ mv ~/Gf-Patterns/*.json ~/.gf
 echo "create a recon folder in ~/"
 mkdir ~/gorecon
 
-echo -e "\n\n\n\nDone! All tools are set up in ~/tools"
+echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
