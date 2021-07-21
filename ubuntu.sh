@@ -53,6 +53,11 @@ mkdir ~/tools
 cd ~/tools/
 echo "done"
 
+echo "installing amass"
+wget https://github.com/OWASP/Amass/releases/download/v3.13.4/amass_linux_amd64.zip
+cd ~/tools/
+echo "done"
+
 echo "installing seclists"
 git clone https://github.com/danielmiessler/SecLists.git
 cd ~/tools/
