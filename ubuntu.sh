@@ -28,6 +28,7 @@ sudo apt-get install -y gcc
 sudo apt-get install -y npm
 sudo apt-get install -y docker.io
 sudo apt-get install -y docker-compose
+sudo apt-get install -y docker
 sudo apt-get install -y tree
 sudo apt-get install -y vim
 sudo apt-get install -y wireshark
