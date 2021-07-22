@@ -26,9 +26,7 @@ sudo apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev
 sudo apt-get install -y wine wine32 
 sudo apt-get install -y gcc
 sudo apt-get install -y npm
-sudo apt-get install -y docker.io
-sudo apt-get install -y docker-compose
-sudo apt-get install -y docker
+sudo apt-get install -y docker.io docker-ce docker-compose
 sudo apt-get install -y tree
 sudo apt-get install -y vim
 sudo apt-get install -y wireshark
@@ -38,6 +36,7 @@ sudo apt-get install -y jsbeautifier
 sudo apt-get install -y uglifyjs
 sudo apt-get install -y sqlmap
 sudo gem install aquatone
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
@@ -56,10 +55,7 @@ mkdir ~/tools
 cd ~/tools/
 echo "done"
 
-echo "installing amass"
-wget https://github.com/OWASP/Amass/releases/download/v3.13.4/amass_linux_amd64.zip
-cd ~/tools/
-echo "done"
+
 
 echo "installing seclists"
 git clone https://github.com/danielmiessler/SecLists.git
