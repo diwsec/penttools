@@ -26,7 +26,7 @@ sudo apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev
 sudo apt-get install -y wine wine32 
 sudo apt-get install -y gcc
 sudo apt-get install -y npm
-sudo apt-get install -y docker.io docker-ce docker-compose
+sudo apt-get install -y docker.io docker-compose docker
 sudo apt-get install -y tree
 sudo apt-get install -y vim
 sudo apt-get install -y wireshark
