@@ -1,4 +1,4 @@
-its a bash script for tool automation
+its a bash script for tool automation for kalilinux and ubuntu
 
 To install, run the command: 
 
@@ -8,7 +8,7 @@ Now open .zshrc for exporting the following environment variables
  
 type this in terminal
 
-> vim ~/.zshrc
+> vim ~/.zshrc or vim ~/.bashrc
 
 > export GOPATH=/home/$USER/go
 
@@ -16,7 +16,7 @@ type this in terminal
 
 These changes will take effect after a reboot. Instead of restarting your computer, run
 
->source ~/.zshrc
+>source ~/.zshrc or source ~/.bashrc
 
 If you are not sure which shell you have, then run the command
 
