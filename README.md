@@ -1,8 +1,12 @@
 its a bash script for tool automation for kalilinux and ubuntu
 
-To install, run the command: 
+To install, you need some requirements
 
 > sudo apt install golang
+
+> sudo apt install curl
+
+> sudo apt install git
 
 Now open .zshrc for exporting the following environment variables
  
