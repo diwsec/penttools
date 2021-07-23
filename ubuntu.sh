@@ -4,7 +4,8 @@ sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
-
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo add-apt-repository ppa:wireshark-dev/stable
 sudo apt-get install -y jq
 sudo apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
 sudo apt-get install -y python3-dnspython
@@ -35,8 +36,6 @@ sudo apt-get install -y jsbeautifier
 sudo apt-get install -y uglifyjs
 sudo apt-get install -y sqlmap
 sudo gem install aquatone
-sudo add-apt-repository ppa:longsleep/golang-backports
-sudo add-apt-repository ppa:wireshark-dev/stable
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
