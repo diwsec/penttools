@@ -70,11 +70,6 @@ git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
 echo "done"
 
-echo "installing secretfinder"
-git clone https://github.com/m4ll0k/SecretFinder.git
-cd ~/tools/
-echo "done"
-
 echo "installing de4js"
 git clone https://github.com/lelinhtinh/de4js.git
 cd ~/tools/
