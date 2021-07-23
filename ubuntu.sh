@@ -35,6 +35,8 @@ sudo apt-get install -y jsbeautifier
 sudo apt-get install -y uglifyjs
 sudo apt-get install -y sqlmap
 sudo gem install aquatone
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo add-apt-repository ppa:wireshark-dev/stable
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
@@ -55,6 +57,11 @@ echo "done"
 
 echo "installing seclists"
 git clone https://github.com/danielmiessler/SecLists.git
+cd ~/tools/
+echo "done"
+
+echo "installing amass"
+git clone https://github.com/OWASP/Amass.git
 cd ~/tools/
 echo "done"
 
