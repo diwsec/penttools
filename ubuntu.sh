@@ -53,8 +53,6 @@ mkdir ~/tools
 cd ~/tools/
 echo "done"
 
-
-
 echo "installing seclists"
 git clone https://github.com/danielmiessler/SecLists.git
 cd ~/tools/
@@ -114,6 +112,10 @@ echo "done"
 
 echo "installing gron"
 go get -u github.com/tomnomnom/gron
+echo "done"
+
+echo "installing shuffledns"
+GO111MODULE=on go get -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
 echo "done"
 
 echo "installing meg"
