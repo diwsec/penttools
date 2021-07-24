@@ -62,6 +62,7 @@ echo "done"
 echo "installing amass"
 git clone https://github.com/OWASP/Amass.git
 cd ~/tools/
+echo "dont forget to run: go get -v github.com/OWASP/Amass/v3/... "
 echo "done"
 
 echo "installing dirsearch"
@@ -106,6 +107,7 @@ echo "done"
 
 echo "installing golinkfinder"
 git clone https://github.com/0xsha/GoLinkFinder.git
+echo "github.com/0xsha/GoLinkFinder.git"
 cd ~/tools/
 echo "done"
 
