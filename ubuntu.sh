@@ -194,7 +194,7 @@ echo "installing Gf"
 go get -u github.com/tomnomnom/gf
 echo "done installing gf, now adding the patterns"
 
-echo -e "/n/nGf patterns"
+echo -e "Gf patterns"
 cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
 echo "installing GF patterns"
 cd ~
