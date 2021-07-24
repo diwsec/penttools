@@ -33,4 +33,6 @@ If it displays:
 
 # Now run the bash script to install the tools
 
+> export GO111MODULE=off
+
 happy hacking!
