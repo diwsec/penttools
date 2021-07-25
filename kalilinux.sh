@@ -35,6 +35,7 @@ sudo apt-get install -y dirsearch
 sudo apt-get install -y parallel
 sudo apt-get install -y jsbeautifier
 sudo apt-get install -y uglifyjs
+sudo apt-get install -y amass
 sudo gem install aquatone
 sudo apt-get install -y golang
 
@@ -128,6 +129,10 @@ echo "done"
 
 echo "installing unfurl"
 go get -u github.com/tomnomnom/unfurl 
+echo "done"
+
+echo "installing hakrawler"
+go get github.com/hakluke/hakrawler
 echo "done"
 
 echo "installing waybackurls"
