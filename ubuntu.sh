@@ -140,6 +140,10 @@ echo "installing meg"
 go get -u github.com/tomnomnom/meg
 echo "done"
 
+echo "installing hakrawler"
+go get github.com/hakluke/hakrawler
+echo "done"
+
 echo "installing getJS"
 go get github.com/003random/getJS
 echo "done"
