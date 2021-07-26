@@ -90,11 +90,6 @@ git clone https://github.com/s0md3v/Corsy.git
 cd ~/tools/
 echo "done"
 
-echo "installing corstest"
-git clone https://github.com/RUB-NDS/CORStest.git
-cd ~/tools/
-echo "done"
-
 echo "installing Eyewitness"
 git clone https://github.com/FortyNorthSecurity/EyeWitness.git
 cd ~/tools/
