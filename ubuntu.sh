@@ -66,6 +66,17 @@ cd ~/tools/
 echo "dont forget to run: GO111MODULE=on go get -v github.com/OWASP/Amass/v3/... "
 echo "done"
 
+echo "installing massdns"
+git clone https://github.com/blechschmidt/massdns.git
+cd ~/tools/
+echo "make the file to run"
+echo "done"
+
+echo "installing dnsgen"
+git clone https://github.com/ProjectAnte/dnsgen.git
+cd ~/tools/
+echo "done"
+
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
