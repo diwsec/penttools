@@ -36,6 +36,7 @@ sudo apt-get install -y parallel
 sudo apt-get install -y jsbeautifier
 sudo apt-get install -y uglifyjs
 sudo apt-get install -y sqlmap
+sudo apt-get install -y net-tools
 sudo gem install aquatone
 
 echo "installing feroxbuster"
@@ -74,6 +75,11 @@ echo "done"
 
 echo "installing dnsgen"
 git clone https://github.com/ProjectAnte/dnsgen.git
+cd ~/tools/
+echo "done"
+
+echo "installing reghex"
+git clone https://github.com/l4yton/RegHex.git
 cd ~/tools/
 echo "done"
 
