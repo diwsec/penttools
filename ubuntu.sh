@@ -78,11 +78,6 @@ git clone https://github.com/ProjectAnte/dnsgen.git
 cd ~/tools/
 echo "done"
 
-echo "installing reghex"
-git clone https://github.com/l4yton/RegHex.git
-cd ~/tools/
-echo "done"
-
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
