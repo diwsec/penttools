@@ -75,13 +75,25 @@ git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
 echo "done"
 
-echo "installing corsy"
-git clone https://github.com/s0md3v/Corsy.git
+echo "installing corscanner"
+git clone https://github.com/chenjj/CORScanner.git
 cd ~/tools/
 echo "done"
 
-echo "installing corstest"
-git clone https://github.com/RUB-NDS/CORStest.git
+echo "installing massdns"
+git clone https://github.com/blechschmidt/massdns.git
+cd ~/tools/
+echo "make the file to run"
+echo "done"
+
+echo "installing golinkfinder"
+git clone https://github.com/0xsha/GoLinkFinder.git
+echo "github.com/0xsha/GoLinkFinder.git"
+cd ~/tools/
+echo "done"
+
+echo "installing dnsgen"
+git clone https://github.com/ProjectAnte/dnsgen.git
 cd ~/tools/
 echo "done"
 
