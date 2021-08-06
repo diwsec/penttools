@@ -147,6 +147,15 @@ git clone https://github.com/m4ll0k/SecretFinder.git
 cd ~/tools/
 echo "done"
 
+echo "installing gitgraber"
+git clone https://github.com/hisxo/gitGraber.git
+cd ~/tools/
+echo "done"
+
+echo "installing shhgit"
+go get github.com/eth0izzle/shhgit
+echo "done"
+
 echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
 echo "done"
