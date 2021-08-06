@@ -80,7 +80,7 @@ cd ~/tools/
 echo "run make"
 echo "done"
 
-echo "installing SQLMAP latest"
+echo "installing SQLMAP"
 git clone https://github.com/sqlmapproject/sqlmap.git
 cd ~/tools/
 echo "done"
