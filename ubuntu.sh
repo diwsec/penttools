@@ -74,6 +74,11 @@ cd ~/tools/
 echo "make the file to run"
 echo "done"
 
+echo "installing SQLMAP latest"
+git clone https://github.com/sqlmapproject/sqlmap.git
+cd ~/tools/
+echo "done"
+
 echo "installing dnsgen"
 git clone https://github.com/ProjectAnte/dnsgen.git
 cd ~/tools/
