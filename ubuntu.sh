@@ -31,6 +31,7 @@ sudo apt-get install -y tree
 sudo apt-get install -y vim
 sudo apt-get install -y wireshark
 sudo apt-get install -y nmap
+sudo apt-get install -y nikto
 sudo apt-get install -y masscan
 sudo apt-get install -y parallel
 sudo apt-get install -y jsbeautifier
