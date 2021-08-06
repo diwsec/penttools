@@ -164,6 +164,10 @@ echo "installing getJS"
 go get github.com/003random/getJS
 echo "done"
 
+echo "installing subjs"
+GO111MODULE=on go get -u -v github.com/lc/subjs
+echo "done"
+
 echo "installing fff"
 go get -u github.com/tomnomnom/fff
 echo "done"
