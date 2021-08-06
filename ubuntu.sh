@@ -36,7 +36,6 @@ sudo apt-get install -y parallel
 sudo apt-get install -y jsbeautifier
 sudo apt-get install -y uglifyjs
 sudo apt-get install -y net-tools
-sudo gem install aquatone
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
