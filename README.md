@@ -1,4 +1,4 @@
-its a bash script for tool automation for kalilinux and ubuntu
+A bash script for tool automation for kalilinux and ubuntu
 
 To install, you need some requirements
 
