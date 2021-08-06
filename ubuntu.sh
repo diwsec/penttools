@@ -39,6 +39,7 @@ sudo apt-get install -y nmap
 sudo apt-get install -y masscan
 sudo apt-get install -y parallel
 sudo apt-get install -y net-tools
+sudo apt-get install -y jsbeautifier
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
