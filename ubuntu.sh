@@ -115,6 +115,12 @@ git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
 echo "done"
 
+echo "installing nosqlmap"
+git clone https://github.com/codingo/NoSQLMap.git
+cd ~/tools/
+echo "python module"
+echo "done"
+
 echo "installing corscanner"
 git clone https://github.com/chenjj/CORScanner.git
 cd ~/tools/
