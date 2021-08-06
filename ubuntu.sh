@@ -7,6 +7,7 @@ sudo apt-get -y autoclean
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo add-apt-repository ppa:wireshark-dev/stable
 sudo add-apt-repository ppa:jonathonf/vim
+sudo add-apt-repository ppa:jonathonf/vim-daily
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
