@@ -33,8 +33,6 @@ sudo apt-get install -y wireshark
 sudo apt-get install -y nmap
 sudo apt-get install -y masscan
 sudo apt-get install -y parallel
-sudo apt-get install -y jsbeautifier
-sudo apt-get install -y uglifyjs
 sudo apt-get install -y net-tools
 
 echo "installing feroxbuster"
