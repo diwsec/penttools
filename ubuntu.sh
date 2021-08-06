@@ -31,12 +31,10 @@ sudo apt-get install -y tree
 sudo apt-get install -y vim
 sudo apt-get install -y wireshark
 sudo apt-get install -y nmap
-sudo apt-get install -y nikto
 sudo apt-get install -y masscan
 sudo apt-get install -y parallel
 sudo apt-get install -y jsbeautifier
 sudo apt-get install -y uglifyjs
-sudo apt-get install -y sqlmap
 sudo apt-get install -y net-tools
 sudo gem install aquatone
 
@@ -76,6 +74,11 @@ echo "done"
 
 echo "installing SQLMAP latest"
 git clone https://github.com/sqlmapproject/sqlmap.git
+cd ~/tools/
+echo "done"
+
+echo "installing nikto"
+git clone https://github.com/sullo/nikto.git
 cd ~/tools/
 echo "done"
 
