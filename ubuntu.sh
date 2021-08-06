@@ -36,7 +36,6 @@ sudo apt-get install -y tree
 sudo apt-get install -y vim
 sudo apt-get install -y wireshark
 sudo apt-get install -y nmap
-sudo apt-get install -y masscan
 sudo apt-get install -y parallel
 sudo apt-get install -y net-tools
 sudo apt-get install -y jsbeautifier
@@ -73,6 +72,12 @@ echo "installing massdns"
 git clone https://github.com/blechschmidt/massdns.git
 cd ~/tools/
 echo "make the file to run"
+echo "done"
+
+echo "installing masscan"
+git clone https://github.com/robertdavidgraham/masscan.git
+cd ~/tools/
+echo "run make"
 echo "done"
 
 echo "installing SQLMAP latest"
