@@ -116,6 +116,11 @@ git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
 echo "done"
 
+echo "installing arjun"
+git clone https://github.com/s0md3v/Arjun.git
+cd ~/tools/
+echo "done"
+
 echo "installing nosqlmap"
 git clone https://github.com/codingo/NoSQLMap.git
 cd ~/tools/
