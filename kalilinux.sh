@@ -1,7 +1,5 @@
 #!/bin/bash
 
-figlet diwusec
-
 echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
 
 sudo apt-get -y update
