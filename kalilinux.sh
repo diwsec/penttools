@@ -8,7 +8,13 @@ sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
-
+sudo add-apt-repository ppa:jonathonf/vim
+sudo add-apt-repository ppa:jonathonf/vim-daily
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt-get -y update
+sudo apt-get -y dist-upgrade
+sudo apt-get -y autoremove
+sudo apt-get -y autoclean
 sudo apt-get install -y jq
 sudo apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
 sudo apt-get install -y python3-dnspython
@@ -30,14 +36,10 @@ sudo apt-get install -y tree
 sudo apt-get install -y sublist3r
 sudo apt-get install -y altdns
 sudo apt-get install -y knockpy
-sudo apt-get install -y arjun
 sudo apt-get install -y dirsearch
 sudo apt-get install -y parallel
 sudo apt-get install -y jsbeautifier
-sudo apt-get install -y uglifyjs
 sudo apt-get install -y amass
-sudo gem install aquatone
-sudo apt-get install -y golang
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
@@ -48,6 +50,17 @@ echo "done"
 echo "creating a tools folder in ~/"
 mkdir ~/tools
 cd ~/tools/
+echo "done"
+
+echo "installing arjun"
+git clone https://github.com/s0md3v/Arjun.git
+cd ~/tools/
+echo "done"
+
+echo "installing nosqlmap"
+git clone https://github.com/codingo/NoSQLMap.git
+cd ~/tools/
+echo "python module"
 echo "done"
 
 echo "installing dirsearch"
@@ -92,6 +105,11 @@ echo "github.com/0xsha/GoLinkFinder.git"
 cd ~/tools/
 echo "done"
 
+echo "installing gitgraber"
+git clone https://github.com/hisxo/gitGraber.git
+cd ~/tools/
+echo "done"
+
 echo "installing dnsgen"
 git clone https://github.com/ProjectAnte/dnsgen.git
 cd ~/tools/
@@ -109,6 +127,10 @@ echo "done"
 
 echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
+echo "done"
+
+echo "installing shhgit"
+go get github.com/eth0izzle/shhgit
 echo "done"
 
 echo "installing proxify"
