@@ -40,6 +40,7 @@ sudo apt-get install -y nmap
 sudo apt-get install -y parallel
 sudo apt-get install -y net-tools
 sudo apt-get install -y jsbeautifier
+sudo pip install scrapy
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
@@ -60,6 +61,11 @@ echo "done"
 
 echo "installing seclists"
 git clone https://github.com/danielmiessler/SecLists.git
+cd ~/tools/
+echo "done"
+
+echo "installing wafw00f"
+git clone https://github.com/EnableSecurity/wafw00f.git
 cd ~/tools/
 echo "done"
 
