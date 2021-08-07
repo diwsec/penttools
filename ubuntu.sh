@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
 
 sudo apt-get -y update
