@@ -86,8 +86,8 @@ git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
 echo "done"
 
-echo "installing corstest"
-git clone https://github.com/RUB-NDS/CORStest.git
+echo "installing corscanner"
+git clone https://github.com/chenjj/CORScanner.git
 cd ~/tools/
 echo "done"
 
