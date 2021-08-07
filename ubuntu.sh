@@ -134,8 +134,8 @@ cd ~/tools/
 echo "python module"
 echo "done"
 
-echo "installing corscanner"
-git clone https://github.com/chenjj/CORScanner.git
+echo "installing corstest"
+git clone https://github.com/RUB-NDS/CORStest.git
 cd ~/tools/
 echo "done"
 
