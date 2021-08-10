@@ -143,11 +143,6 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
-echo "installing secretfinder"
-git clone https://github.com/m4ll0k/SecretFinder.git
-cd ~/tools/
-echo "done"
-
 echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
 echo "done"
