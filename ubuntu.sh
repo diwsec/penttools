@@ -10,7 +10,6 @@ sudo add-apt-repository ppa:longsleep/golang-backports
 sudo add-apt-repository ppa:wireshark-dev/stable
 sudo add-apt-repository ppa:jonathonf/vim
 sudo add-apt-repository ppa:jonathonf/vim-daily
-sudo add-apt-repository ppa:ondrej/php
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
@@ -129,12 +128,6 @@ git clone https://github.com/s0md3v/Arjun.git
 cd ~/tools/
 echo "done"
 
-echo "installing nosqlmap"
-git clone https://github.com/codingo/NoSQLMap.git
-cd ~/tools/
-echo "python module"
-echo "done"
-
 echo "installing corscanner"
 git clone https://github.com/chenjj/CORScanner.git
 cd ~/tools/
@@ -150,24 +143,9 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
-echo "installing golinkfinder"
-git clone https://github.com/0xsha/GoLinkFinder.git
-echo "github.com/0xsha/GoLinkFinder.git"
-cd ~/tools/
-echo "done"
-
 echo "installing secretfinder"
 git clone https://github.com/m4ll0k/SecretFinder.git
 cd ~/tools/
-echo "done"
-
-echo "installing gitgraber"
-git clone https://github.com/hisxo/gitGraber.git
-cd ~/tools/
-echo "done"
-
-echo "installing shhgit"
-go get github.com/eth0izzle/shhgit
 echo "done"
 
 echo "installing assetfinder"
