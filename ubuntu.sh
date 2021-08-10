@@ -10,6 +10,7 @@ sudo add-apt-repository ppa:longsleep/golang-backports
 sudo add-apt-repository ppa:wireshark-dev/stable
 sudo add-apt-repository ppa:jonathonf/vim
 sudo add-apt-repository ppa:jonathonf/vim-daily
+sudo add-apt-repository ppa:ondrej/php
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
