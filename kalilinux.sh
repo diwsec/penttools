@@ -55,8 +55,8 @@ git clone https://github.com/s0md3v/Arjun.git
 cd ~/tools/
 echo "done"
 
-echo "installing whatwaf"
-git clone https://github.com/Ekultek/WhatWaf.git
+echo "installing wafw00f"
+git clone https://github.com/EnableSecurity/wafw00f.git
 cd ~/tools/
 echo "done"
 
