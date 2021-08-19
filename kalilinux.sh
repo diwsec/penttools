@@ -55,6 +55,11 @@ git clone https://github.com/s0md3v/Arjun.git
 cd ~/tools/
 echo "done"
 
+echo "installing whatwaf"
+git clone https://github.com/Ekultek/WhatWaf.git
+cd ~/tools/
+echo "done"
+
 echo "installing nosqlmap"
 git clone https://github.com/codingo/NoSQLMap.git
 cd ~/tools/
@@ -68,11 +73,6 @@ echo "done"
 
 echo "installing Linkfinder"
 git clone https://github.com/GerbenJavado/LinkFinder.git
-cd ~/tools/
-echo "done"
-
-echo "installing secretfinder"
-git clone https://github.com/m4ll0k/SecretFinder.git
 cd ~/tools/
 echo "done"
 
@@ -97,17 +97,6 @@ cd ~/tools/
 echo "make the file to run"
 echo "done"
 
-echo "installing golinkfinder"
-git clone https://github.com/0xsha/GoLinkFinder.git
-echo "github.com/0xsha/GoLinkFinder.git"
-cd ~/tools/
-echo "done"
-
-echo "installing gitgraber"
-git clone https://github.com/hisxo/gitGraber.git
-cd ~/tools/
-echo "done"
-
 echo "installing dnsgen"
 git clone https://github.com/ProjectAnte/dnsgen.git
 cd ~/tools/
@@ -125,10 +114,6 @@ echo "done"
 
 echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
-echo "done"
-
-echo "installing shhgit"
-go get github.com/eth0izzle/shhgit
 echo "done"
 
 echo "installing proxify"
