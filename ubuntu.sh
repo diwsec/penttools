@@ -67,6 +67,8 @@ echo "done"
 
 echo "installing wafw00f"
 git clone https://github.com/EnableSecurity/wafw00f.git
+echo "installing whatwaf"
+git clone https://github.com/Ekultek/WhatWaf.git
 cd ~/tools/
 echo "done"
 
