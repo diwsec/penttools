@@ -134,7 +134,6 @@ cd ~/tools/
 echo "done"
 
 echo "installing corscanner"
-git clone https://github.com/chenjj/CORScanner.git
 git clone https://github.com/diwusec/corscanner.git
 cd ~/tools/
 echo "done"
