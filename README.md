@@ -2,11 +2,9 @@ A bash script for installing bunch of bugbounty tools for kalilinux and ubuntu
 
 To install, you need some requirements
 
-> sudo apt install golang
-
-> sudo apt install curl
-
 > sudo apt install git
+
+> sudo apt install golang
 
 Now open .zshrc for exporting the following environment variables
  
