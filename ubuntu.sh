@@ -73,7 +73,7 @@ echo "done"
 echo "installing amass"
 git clone https://github.com/OWASP/Amass.git
 cd ~/tools/
-echo "dont forget to run: GO111MODULE=on go get -v github.com/OWASP/Amass/v3/... "
+echo "dont forget to run: go install github.com/OWASP/Amass/v3/... "
 echo "done"
 
 echo "installing massdns"
