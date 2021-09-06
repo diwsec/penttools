@@ -144,99 +144,99 @@ cd ~/tools/
 echo "done"
 
 echo "installing assetfinder"
-go get -u github.com/tomnomnom/assetfinder
+go install github.com/tomnomnom/assetfinder@latest
 echo "done"
 
 echo "installing proxify"
-GO111MODULE=on go get -v github.com/projectdiscovery/proxify/cmd/proxify
+go install github.com/projectdiscovery/proxify/cmd/proxify@latest
 echo "done"
 
 echo "installing dnsx"
-GO111MODULE=on go get -v github.com/projectdiscovery/dnsx/cmd/dnsx
+go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 echo "done"
 
 echo "installing gron"
-go get -u github.com/tomnomnom/gron
+go install github.com/tomnomnom/gron@latest
 echo "done"
 
 echo "installing shuffledns"
-GO111MODULE=on go get -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
+go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 echo "done"
 
 echo "installing meg"
-go get -u github.com/tomnomnom/meg
+go install github.com/tomnomnom/meg@latest
 echo "done"
 
 echo "installing hakrawler"
-go get github.com/hakluke/hakrawler
+go install github.com/hakluke/hakrawler@latest
 echo "done"
 
 echo "installing getJS"
-go get github.com/003random/getJS
+go install github.com/003random/getJS@latest
 echo "done"
 
 echo "installing subjs"
-GO111MODULE=on go get -u -v github.com/lc/subjs
+go install github.com/lc/subjs@latest
 echo "done"
 
 echo "installing fff"
-go get -u github.com/tomnomnom/fff
+go install github.com/tomnomnom/fff@latest
 echo "done"
 
 echo "installing httprobe"
-go get -u github.com/tomnomnom/httprobe 
+go install github.com/tomnomnom/httprobe@latest 
 echo "done"
 
 echo "installing unfurl"
-go get -u github.com/tomnomnom/unfurl 
+go install github.com/tomnomnom/unfurl@latest 
 echo "done"
 
 echo "installing waybackurls"
-go get github.com/tomnomnom/waybackurls
+go install github.com/tomnomnom/waybackurls@latest
 echo "done"
 
 echo "installing ffuf"
-go get -u github.com/ffuf/ffuf
+go install github.com/ffuf/ffuf@latest
 echo "done"
 
 echo "installing naabu"
-GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
+go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
 echo "done"
 
 echo "installing gau"
-GO111MODULE=on go get -u -v github.com/lc/gau
+go install github.com/lc/gau@latest
 echo "done"
 
 echo "installing subfinder"
-GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
+go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 echo "done"
 
 echo "installing nuclei"
-GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei 
+go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest 
 echo "done"
 
 echo "installing httpx"
-GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx
+go install github.com/projectdiscovery/httpx/cmd/httpx@latest
 echo "done"
 
 echo "installing qsreplace"
-go get -u github.com/tomnomnom/qsreplace
+go install github.com/tomnomnom/qsreplace@latest
 echo "done"
 
 echo "installing anew"
-go get -u github.com/tomnomnom/anew
+go install github.com/tomnomnom/anew@latest
 echo "done"
 
 echo "installing Gf"
-go get -u github.com/tomnomnom/gf
+go install github.com/tomnomnom/gf@latest
 echo "done installing gf, now adding the patterns"
 
 echo -e "Gf patterns"
-cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
+cp -r $GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/examples ~/.gf
 echo "installing GF patterns"
 cd ~
 git clone https://github.com/1ndianl33t/Gf-Patterns.git
-mv ~/Gf-Patterns/*.json ~/.gf
+sudo mv ~/Gf-Patterns/*.json ~/.gf
 
 echo "create a recon folder in ~/"
 mkdir ~/gorecon
