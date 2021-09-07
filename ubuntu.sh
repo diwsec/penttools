@@ -32,7 +32,10 @@ sudo apt-get install -y git
 sudo apt-get install -y default-jdk
 sudo apt-get install -y gpgv2 autoconf bison postgresql libaprutil1 openssl libpq-dev libreadline6-dev libreadline-dev libsqlite3-dev libssl-dev locate
 sudo apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev postgresql-contrib xsel zlib1g git-core gawk libffi-dev libgdm-dev libncurses5-dev dirmngr python3-magic
-sudo apt-get install -y wine wine32 
+sudo apt-get install -y libwine
+sudo apt-get install -y wine
+sudo apt-get install -y wine32
+sudo apt-get install -y wine64
 sudo apt-get install -y gcc
 sudo apt-get install -y npm
 sudo apt-get install -y tree
