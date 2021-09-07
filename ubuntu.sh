@@ -14,6 +14,7 @@ sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
+sudo apt-get install -y apache2
 sudo apt-get install -y jq
 sudo apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
 sudo apt-get install -y python3-dnspython
