@@ -28,16 +28,13 @@ sudo apt-get install -y python3-pip
 sudo apt-get install -y gcc
 sudo apt-get install -y npm
 sudo apt-get install -y torbrowser-launcher
-sudo apt-get install -y geany
 sudo apt-get install -y masscan
 sudo apt-get install -y tree
 sudo apt-get install -y sublist3r
 sudo apt-get install -y altdns
 sudo apt-get install -y knockpy
-sudo apt-get install -y dirsearch
 sudo apt-get install -y parallel
 sudo apt-get install -y jsbeautifier
-sudo apt-get install -y amass
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
@@ -50,20 +47,42 @@ mkdir ~/tools
 cd ~/tools/
 echo "done"
 
-echo "installing arjun"
-git clone https://github.com/s0md3v/Arjun.git
-cd ~/tools/
-echo "done"
-
 echo "installing wafw00f"
 git clone https://github.com/EnableSecurity/wafw00f.git
 cd ~/tools/
 echo "done"
 
-echo "installing nosqlmap"
-git clone https://github.com/codingo/NoSQLMap.git
+echo "installing amass"
+git clone https://github.com/OWASP/Amass.git
 cd ~/tools/
-echo "python module"
+echo "dont forget to run: go install github.com/OWASP/Amass/v3/... "
+echo "done"
+
+echo "installing massdns"
+git clone https://github.com/blechschmidt/massdns.git
+cd ~/tools/
+echo "make the file to run"
+echo "done"
+
+echo "installing masscan"
+git clone https://github.com/robertdavidgraham/masscan.git
+cd ~/tools/
+echo "run make"
+echo "done"
+
+echo "installing SQLMAP"
+git clone https://github.com/sqlmapproject/sqlmap.git
+cd ~/tools/
+echo "done"
+
+echo "installing nikto"
+git clone https://github.com/sullo/nikto.git
+cd ~/tools/
+echo "done"
+
+echo "installing dnsgen"
+git clone https://github.com/ProjectAnte/dnsgen.git
+cd ~/tools/
 echo "done"
 
 echo "installing dirsearch"
@@ -86,19 +105,13 @@ git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
 echo "done"
 
+echo "installing arjun"
+git clone https://github.com/s0md3v/Arjun.git
+cd ~/tools/
+echo "done"
+
 echo "installing corscanner"
-git clone https://github.com/chenjj/CORScanner.git
-cd ~/tools/
-echo "done"
-
-echo "installing massdns"
-git clone https://github.com/blechschmidt/massdns.git
-cd ~/tools/
-echo "make the file to run"
-echo "done"
-
-echo "installing dnsgen"
-git clone https://github.com/ProjectAnte/dnsgen.git
+git clone https://github.com/diwusec/corscanner.git
 cd ~/tools/
 echo "done"
 
