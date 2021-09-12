@@ -1,4 +1,4 @@
-## A bash script for installing pentest tools for kalilinux, ubuntu, and docker
+## A bash script for installing pentest tools for kalilinux and ubuntu
 
 To install, you need some requirements
 
