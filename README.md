@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/diwusec/pentdocks"><img src="https://blogvaronis2.wpengine.com/wp-content/uploads/2020/05/varonis-pentesting-hero@2x-1-1.png" alt="pentdocks"></a>
+  <a href="https://github.com/diwusec/penttools"><img src="https://blogvaronis2.wpengine.com/wp-content/uploads/2020/05/varonis-pentesting-hero@2x-1-1.png" alt="penttools"></a>
   <br>
 </h1>
 
