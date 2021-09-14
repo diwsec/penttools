@@ -1,16 +1,19 @@
-## A bash script for installing pentest tools for kalilinux and ubuntu
+# A bash script for installing pentest tools for kalilinux and ubuntu
 
 To install, you need some requirements
 
-`sudo apt install git`
+```
+sudo apt install git
+```
+```
+sudo apt install golang
+```
 
-`sudo apt install golang`
-
-Now open .zshrc for exporting the following environment variables
+Now open `.rc` for exporting the following environment variables
  
-type this in terminal
+type this in terminal(use any editors)
 
-`vim ~/.zshrc` or `vim ~/.bashrc`
+`vim ~/.bashrc` or `vim ~/.zshrc`
 ```
 export GOPATH=/home/$USER/go
 ```
@@ -22,8 +25,9 @@ These changes will take effect after a reboot. Instead of restarting your comput
 `source ~/.zshrc` or `source ~/.bashrc`
 
 If you are not sure which shell you have, then run the command
-
-`echo $SHELL`
+```
+echo $SHELL
+```
 
 If it displays:
 
@@ -31,6 +35,6 @@ If it displays:
 
 `/usr/bin/zsh` – means you have ZSH
 
-# Now run the bash script to install the tools
+Now git clone my repo `https://github.com/diwusec/setup.git` and `cd setup` run `bash  script.sh` to install the tools
 
-happy hacking!
+# happy hacking!
