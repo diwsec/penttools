@@ -1,4 +1,11 @@
-# A bash script for installing pentest tools for kalilinux and ubuntu
+<h1 align="center">pentesting tools</h1>
+<h4 align="center">web application pentesting tools for ubuntu and kalilinux</h4>
+
+<h1 align="center">
+  <br>
+  <a href="https://github.com/diwusec/pentdocks"><img src="https://blogvaronis2.wpengine.com/wp-content/uploads/2020/05/varonis-pentesting-hero@2x-1-1.png" alt="pentdocks"></a>
+  <br>
+</h1>
 
 To install, you need some requirements
 
