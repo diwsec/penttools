@@ -48,6 +48,6 @@ If it displays:
 
 `/usr/bin/zsh` – means you have ZSH
 
-Now git clone my repo `https://github.com/diwusec/setup.git` and `cd setup` run `bash  script.sh` to install the tools
+Now git clone my repo `https://github.com/diwusec/penttools.git` and `cd setup` run `bash  script.sh` to install the tools
 
 # happy hacking!
