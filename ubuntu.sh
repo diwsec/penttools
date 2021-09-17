@@ -70,11 +70,6 @@ git clone https://github.com/EnableSecurity/wafw00f.git
 cd ~/tools/
 echo "done"
 
-echo "installing asnlookup"
-git clone https://github.com/diwusec/Asnlookup.git
-cd ~/tools/
-echo "done"
-
 echo "installing amass"
 git clone https://github.com/OWASP/Amass.git
 cd ~/tools/
