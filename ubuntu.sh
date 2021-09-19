@@ -34,7 +34,6 @@ sudo apt-get install -y default-jdk
 sudo apt-get install -y gpgv2 autoconf bison postgresql libaprutil1 openssl libpq-dev libreadline6-dev libreadline-dev libsqlite3-dev libssl-dev locate
 sudo apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev postgresql-contrib xsel zlib1g git-core gawk libffi-dev libgdm-dev libncurses5-dev dirmngr python3-magic
 sudo apt-get install -y gcc
-sudo apt-get install -y npm
 sudo apt-get install -y tree
 sudo apt-get install -y vim
 sudo apt-get install -y wireshark
@@ -113,11 +112,6 @@ git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
 echo "done"
 
-echo "installing de4js"
-git clone https://github.com/lelinhtinh/de4js.git
-cd ~/tools/
-echo "done"
-
 echo "installing noslqi"
 git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
@@ -173,10 +167,6 @@ echo "done"
 
 echo "installing gospider"
 go install github.com/jaeles-project/gospider@latest
-echo "done"
-
-echo "installing getJS"
-go install github.com/003random/getJS@latest
 echo "done"
 
 echo "installing subjs"
