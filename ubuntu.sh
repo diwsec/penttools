@@ -92,6 +92,16 @@ git clone https://github.com/sqlmapproject/sqlmap.git
 cd ~/tools/
 echo "done"
 
+echo "installing secretfinder"
+git clone https://github.com/m4ll0k/SecretFinder.git
+cd ~/tools/
+echo "done"
+
+echo "installing favfreak"
+git clone https://github.com/devanshbatham/FavFreak.git
+cd ~/tools/
+echo "done"
+
 echo "installing nikto"
 git clone https://github.com/sullo/nikto.git
 cd ~/tools/
@@ -151,6 +161,10 @@ echo "done"
 
 echo "installing gron"
 go install github.com/tomnomnom/gron@latest
+echo "done"
+
+echo "installing asnip"
+go install github.com/harleo/asnip@latest
 echo "done"
 
 echo "installing shuffledns"
