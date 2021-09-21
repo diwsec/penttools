@@ -157,6 +157,10 @@ echo "installing asnip"
 go install github.com/harleo/asnip@latest
 echo "done"
 
+echo "installing getjs"
+go install github.com/003random/getJS@latest
+echo "done"
+
 echo "installing shuffledns"
 go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 echo "done"
