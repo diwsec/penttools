@@ -135,6 +135,14 @@ echo "installing gron"
 go install github.com/tomnomnom/gron@latest
 echo "done"
 
+echo "installing asnip"
+go install github.com/harleo/asnip@latest
+echo "done"
+
+echo "installing getjs"
+go install github.com/003random/getJS@latest
+echo "done"
+
 echo "installing shuffledns"
 go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 echo "done"
@@ -191,10 +199,6 @@ echo "installing nuclei"
 go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest 
 echo "done"
 
-echo "installing asnip"
-go install github.com/harleo/asnip@latest
-echo "done"
-
 echo "installing httpx"
 go install github.com/projectdiscovery/httpx/cmd/httpx@latest
 echo "done"
@@ -221,7 +225,7 @@ sudo mv ~/Gf-Patterns/*.json ~/.gf
 echo "create a recon folder in ~/"
 mkdir ~/gorecon
 
-echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
+echo -e "\n\n\n\nDone! All tools are set up in ~/tools"
 
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
