@@ -99,6 +99,16 @@ git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
 echo "done"
 
+echo "installing secretfinder"
+git clone https://github.com/m4ll0k/SecretFinder.git
+cd ~/tools/
+echo "done"
+
+echo "installing favfreak"
+git clone https://github.com/devanshbatham/FavFreak.git
+cd ~/tools/
+echo "done"
+
 echo "installing arjun"
 git clone https://github.com/s0md3v/Arjun.git
 cd ~/tools/
@@ -189,6 +199,10 @@ echo "done"
 
 echo "installing nuclei"
 go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest 
+echo "done"
+
+echo "installing asnip"
+go install github.com/harleo/asnip@latest
 echo "done"
 
 echo "installing httpx"
