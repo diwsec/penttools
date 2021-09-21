@@ -7,12 +7,6 @@
   <br>
 </h1>
 
-|                                                            |   |
-|------------------------------------------------------------|---|
-| useful tools                                               | ✔ |
-| stable                                                     | ✔ |      
-| easy to use                                                | ✔ |
-
 To install, you need some requirements
 
 ```
