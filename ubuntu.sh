@@ -92,8 +92,8 @@ git clone https://github.com/m4ll0k/SecretFinder.git
 cd ~/tools/
 echo "done"
 
-echo "installing favfreak"
-git clone https://github.com/devanshbatham/FavFreak.git
+echo "installing favifreak"
+git clone https://github.com/devanshbatham/favifreak.git
 cd ~/tools/
 echo "done"
 
