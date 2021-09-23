@@ -80,7 +80,7 @@ echo "done"
 
 echo "installing masscan"
 git clone https://github.com/robertdavidgraham/masscan.git
-cd massscan
+cd masscan
 make
 cd ~/tools/
 echo "done"
@@ -96,7 +96,7 @@ cd ~/tools/
 echo "done"
 
 echo "installing favifreak"
-git clone https://github.com/devanshbatham/favifreak.git
+git clone https://github.com/diwusec/favifreak.git
 cd ~/tools/
 echo "done"
 
