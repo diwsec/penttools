@@ -98,7 +98,7 @@ cd ~/tools/
 echo "done"
 
 echo "installing favifreak"
-git clone https://github.com/diwusec/favifreak.git
+git clone https://github.com/devanshbatham/FavFreak.git
 cd ~/tools/
 echo "done"
 
@@ -108,7 +108,7 @@ cd ~/tools/
 echo "done"
 
 echo "installing corscanner"
-git clone https://github.com/diwusec/corscanner.git
+git clone https://github.com/chenjj/CORScanner.git
 cd ~/tools/
 echo "done"
 
