@@ -8,8 +8,7 @@ sudo apt-get -y autoremove
 sudo apt-get -y autoclean
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo add-apt-repository ppa:wireshark-dev/stable
-sudo add-apt-repository ppa:jonathonf/vim
-sudo add-apt-repository ppa:jonathonf/vim-daily
+sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
@@ -35,12 +34,14 @@ sudo apt-get install -y gpgv2 autoconf bison postgresql libaprutil1 openssl libp
 sudo apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev postgresql-contrib xsel zlib1g git-core gawk libffi-dev libgdm-dev libncurses5-dev dirmngr python3-magic
 sudo apt-get install -y gcc
 sudo apt-get install -y tree
-sudo apt-get install -y vim
+sudo apt-get install -y neovim
 sudo apt-get install -y wireshark
 sudo apt-get install -y nmap
 sudo apt-get install -y parallel
 sudo apt-get install -y net-tools
 sudo apt-get install -y jsbeautifier
+
+
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
