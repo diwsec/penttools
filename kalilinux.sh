@@ -6,8 +6,7 @@ sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
-sudo add-apt-repository ppa:jonathonf/vim
-sudo add-apt-repository ppa:jonathonf/vim-daily
+sudo add-apt-repository ppa:neovim-ppa/stable
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
