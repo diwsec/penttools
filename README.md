@@ -1,5 +1,5 @@
 <h1 align="center">penttools</h1>
-<h4 align="center">web application pentesting tools for ubuntu and kalilinux</h4>
+<h4 align="center">web application pentesting tools for ubuntu</h4>
 
 <h1 align="center">
   <br>
