@@ -33,4 +33,9 @@ These changes will take effect after a reboot. Instead of restarting your comput
 
 Now git clone my repo `https://github.com/diwusec/penttools.git` and `cd setup` run `bash  script.sh` to install the tools
 
+## if your not insatlled docker run docker.sh
+```
+bash docker.sh
+```
+
 # happy hacking!
