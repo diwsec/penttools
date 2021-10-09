@@ -163,10 +163,6 @@ echo "installing getjs"
 go install github.com/003random/getJS@latest
 echo "done"
 
-echo "installing shuffledns"
-go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
-echo "done"
-
 echo "installing meg"
 go install github.com/tomnomnom/meg@latest
 echo "done"
