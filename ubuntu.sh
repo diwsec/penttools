@@ -49,8 +49,8 @@ echo "done"
 
 echo "installing metasploit"
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall && \
-  ./msfinstall
+chmod 755 msfinstall && \
+./msfinstall
 echo "done"
 
 echo "creating a tools folder in ~/"
@@ -67,11 +67,6 @@ echo "installing amass"
 git clone https://github.com/OWASP/Amass.git
 cd Amass
 go install github.com/OWASP/Amass/v3/...
-cd ~/tools/
-echo "done"
-
-echo "installing subbrute"
-git clone https://github.com/TheRook/subbrute.git
 cd ~/tools/
 echo "done"
 
