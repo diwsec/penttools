@@ -70,6 +70,11 @@ go install github.com/OWASP/Amass/v3/...
 cd ~/tools/
 echo "done"
 
+echo "installing subbrute"
+git clone https://github.com/TheRook/subbrute.git
+cd ~/tools/
+echo "done"
+
 echo "installing massdns"
 git clone https://github.com/blechschmidt/massdns.git
 cd massdns
