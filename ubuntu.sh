@@ -13,22 +13,22 @@ sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
-apt-get install -y golang
-apt-get install -y neovim
-apt-get install -y curl
-apt-get install -y python3
-apt-get install -y python3-pip
-apt-get install -y libpcap-dev
-apt-get install -y htop
-apt-get install -y wget
-apt-get install -y build-essential
-apt-get install -y gcc
-apt-get install -y tree
-apt-get install -y nmap
-apt-get install -y wireshark
-apt-get install -y net-tools
-apt-get install -y jsbeautifier
-apt-get install -y default-jdk
+sudo apt-get install -y golang
+sudo apt-get install -y neovim
+sudo apt-get install -y curl
+sudo apt-get install -y python3
+sudo apt-get install -y python3-pip
+sudo apt-get install -y libpcap-dev
+sudo apt-get install -y htop
+sudo apt-get install -y wget
+sudo apt-get install -y build-essential
+sudo apt-get install -y gcc
+sudo apt-get install -y tree
+sudo apt-get install -y nmap
+sudo apt-get install -y wireshark
+sudo apt-get install -y net-tools
+sudo apt-get install -y jsbeautifier
+sudo apt-get install -y default-jdk
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
