@@ -13,44 +13,27 @@ sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
-sudo apt-get install -y apache2
-sudo apt-get install -y jq
-sudo apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
-sudo apt-get install -y python3-dnspython
-sudo apt-get install -y libssl-dev libffi-dev python-dev
-sudo apt-get install -y rename
-sudo apt-get install -y ruby-full
-sudo apt-get install -y libpcap-dev
-sudo apt-get install -y htop
-sudo apt-get install -y libldns-dev
-sudo apt-get install -y python-setuptools
-sudo apt-get install -y build-essential
-sudo apt-get install -y python3-pip
-sudo apt-get install -y python
-sudo apt-get install -y curl
-sudo apt-get install -y git
-sudo apt-get install -y default-jdk
-sudo apt-get install -y gpgv2 autoconf bison postgresql libaprutil1 openssl libpq-dev libreadline6-dev libreadline-dev libsqlite3-dev libssl-dev locate
-sudo apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev postgresql-contrib xsel zlib1g git-core gawk libffi-dev libgdm-dev libncurses5-dev dirmngr python3-magic
-sudo apt-get install -y gcc
-sudo apt-get install -y tree
-sudo apt-get install -y neovim
-sudo apt-get install -y wireshark
-sudo apt-get install -y nmap
-sudo apt-get install -y parallel
-sudo apt-get install -y net-tools
-sudo apt-get install -y jsbeautifier
+apt-get install -y golang
+apt-get install -y neovim
+apt-get install -y curl
+apt-get install -y python3
+apt-get install -y python3-pip
+apt-get install -y libpcap-dev
+apt-get install -y htop
+apt-get install -y wget
+apt-get install -y build-essential
+apt-get install -y gcc
+apt-get install -y tree
+apt-get install -y nmap
+apt-get install -y wireshark
+apt-get install -y net-tools
+apt-get install -y jsbeautifier
+apt-get install -y default-jdk
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
 echo "moving ./feroxbuster to /usr/local/bin"
 sudo mv feroxbuster /usr/local/bin
-echo "done"
-
-echo "installing metasploit"
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-chmod 755 msfinstall && \
-./msfinstall
 echo "done"
 
 echo "creating a tools folder in ~/"
