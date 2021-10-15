@@ -8,7 +8,7 @@ sudo apt-get -y autoremove
 sudo apt-get -y autoclean
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo add-apt-repository ppa:wireshark-dev/stable
-sudo add-apt-repository ppa:neovim-ppa/stable
+sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
