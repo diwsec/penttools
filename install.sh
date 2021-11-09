@@ -117,6 +117,16 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
+echo "installing gitleaks"
+git clone https://github.com/zricethezav/gitleaks.git
+cd ~/tools/
+echo "done"
+
+echo "installing trufflehog"
+git clone https://github.com/trufflesecurity/truffleHog.git
+cd ~/tools/
+echo "done"
+
 echo "installing assetfinder"
 go install github.com/tomnomnom/assetfinder@latest
 echo "done"
