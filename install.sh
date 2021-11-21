@@ -132,11 +132,6 @@ git clone https://github.com/trufflesecurity/truffleHog.git
 cd ~/tools/
 echo "done"
 
-echo "installing altdns"
-git clone https://github.com/infosec-au/altdns.git
-cd ~/tools/
-echo "done"
-
 echo "installing dnsgen"
 git clone https://github.com/ProjectAnte/dnsgen.git
 cd ~/tools/
@@ -204,6 +199,10 @@ echo "done"
 
 echo "installing ffuf"
 go install github.com/ffuf/ffuf@latest
+echo "done"
+
+echo "installing dalfox"
+go install github.com/hahwul/dalfox/v2@latest
 echo "done"
 
 echo "installing naabu"
