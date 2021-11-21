@@ -72,6 +72,11 @@ git clone https://github.com/sqlmapproject/sqlmap.git
 cd ~/tools/
 echo "done"
 
+echo "installing xsstrike"
+git clone https://github.com/s0md3v/XSStrike.git
+cd ~/tools/
+echo "done"
+
 echo "installing favifreak"
 git clone https://github.com/devanshbatham/FavFreak.git
 cd ~/tools/
@@ -124,6 +129,16 @@ echo "done"
 
 echo "installing trufflehog"
 git clone https://github.com/trufflesecurity/truffleHog.git
+cd ~/tools/
+echo "done"
+
+echo "installing altdns"
+git clone https://github.com/infosec-au/altdns.git
+cd ~/tools/
+echo "done"
+
+echo "installing dnsgen"
+git clone https://github.com/ProjectAnte/dnsgen.git
 cd ~/tools/
 echo "done"
 
