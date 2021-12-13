@@ -12,9 +12,6 @@ To install, you need some requirements
 ```
 sudo apt install git
 ```
-```
-sudo apt install golang
-```
 
 Now open `.rc` for exporting the following environment variables
  
@@ -31,10 +28,7 @@ These changes will take effect after a reboot. Instead of restarting your comput
 
 `source ~/.bashrc`
 
-Now git clone my repo `https://github.com/diwusec/penttools.git` and `cd setup` run `bash  script.sh` to install the tools
+Now git clone my repo `https://github.com/diwusec/penttools.git` change directory `cd setup` and run `bash  script.sh` to install the tools
 
-## if your not insatlled docker run docker.sh
-```
-bash docker.sh
 ```
 # happy hacking!
