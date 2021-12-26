@@ -46,11 +46,6 @@ git clone https://github.com/danielmiessler/SecLists.git
 cd ~/tools/
 echo "done"
 
-echo "installing uro"
-git clone https://github.com/s0md3v/uro.git
-cd ~/tools/
-echo "done"
-
 echo "installing commonspeak2-wordlists"
 git clone https://github.com/assetnote/commonspeak2-wordlists.git
 cd ~/tools/
@@ -145,10 +140,6 @@ echo "done"
 echo "installing dnsgen"
 git clone https://github.com/ProjectAnte/dnsgen.git
 cd ~/tools/
-echo "done"
-
-echo "installing assetfinder"
-go install github.com/tomnomnom/assetfinder@latest
 echo "done"
 
 echo "installing proxify"
