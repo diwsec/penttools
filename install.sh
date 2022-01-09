@@ -112,6 +112,11 @@ git clone https://github.com/s0md3v/Arjun.git
 cd ~/tools/
 echo "done"
 
+echo "installing corstest"
+git clone https://github.com/RUB-NDS/CORStest.git
+cd ~/tools/
+echo "done"
+
 echo "installing corscanner"
 git clone https://github.com/chenjj/CORScanner.git
 cd ~/tools/
@@ -172,6 +177,10 @@ echo "done"
 
 echo "installing hakrawler"
 go install github.com/hakluke/hakrawler@latest
+echo "done"
+
+echo "installing  crlfuzz"
+GO111MODULE=on go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
 echo "done"
 
 echo "installing gospider"
