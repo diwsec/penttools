@@ -151,6 +151,10 @@ echo "installing proxify"
 go install github.com/projectdiscovery/proxify/cmd/proxify@latest
 echo "done"
 
+echo "installing gotop"
+go install github.com/xxxserxxx/gotop/v4/cmd/gotop@latest
+echo "done"
+
 echo "installing dnsx"
 go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 echo "done"
