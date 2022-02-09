@@ -266,7 +266,7 @@ cd ~
 git clone https://github.com/1ndianl33t/Gf-Patterns.git
 sudo mv ~/Gf-Patterns/*.json ~/.gf
 
-echo "create a recon folder in ~/"
+echo "created a recon folder in ~/"
 mkdir ~/gorecon
 
 echo -e "\n\n\n\nDone! All tools are set up in ~/tools"
