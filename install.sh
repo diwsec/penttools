@@ -133,6 +133,11 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
+echo "installing match and replace"
+git clone https://github.com/Leoid/MatchandReplace.git
+cd ~/tools/
+echo "done"
+
 echo "installing gitleaks"
 git clone https://github.com/zricethezav/gitleaks.git
 cd ~/tools/
