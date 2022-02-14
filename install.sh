@@ -1,6 +1,16 @@
 #!/bin/bash
 
-echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
+clear
+
+echo '#######################################################################'
+echo '#                          HACKING Setup                              #'
+echo '#######################################################################'
+echo
+
+echo '#######################################################################'
+echo '#           GREAT POWER COMES WITH GREAT RESPONSIBILITY!              #'
+echo '#######################################################################'
+echo
 
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
