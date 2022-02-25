@@ -38,6 +38,7 @@ sudo apt-get install -y tree
 sudo apt-get install -y nmap
 sudo apt-get install -y wireshark
 sudo apt-get install -y terminator
+sudo apt-get install -y bashtop
 sudo apt-get install -y net-tools
 sudo apt-get install -y jsbeautifier
 sudo apt-get install -y default-jdk
