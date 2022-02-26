@@ -1,4 +1,7 @@
-echo "installing docker"
+echo '#######################################################################'
+echo '#                          DOCKER Setup                               #'
+echo '#######################################################################'
+echo
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 echo "installing lazydocker"
