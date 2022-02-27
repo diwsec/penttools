@@ -95,6 +95,16 @@ git clone https://github.com/devploit/dontgo403.git
 cd ~/tools/
 echo "done"
 
+echo "installing breacher"
+git clone https://github.com/s0md3v/Breacher.git
+cd ~/tools/
+echo "done"
+
+echo "installing parth"
+git clone https://github.com/s0md3v/Parth.git
+cd ~/tools/
+echo "done"
+
 echo "installing xsstrike"
 git clone https://github.com/s0md3v/XSStrike.git
 cd ~/tools/
