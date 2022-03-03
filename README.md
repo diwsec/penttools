@@ -30,4 +30,6 @@ These changes will take effect after a reboot. Instead of restarting your comput
 
 Now git clone my repo `https://github.com/diwusec/penttools.git` change directory `cd setup` and run `bash  script.sh` to install the tools
 
+<p>run setup.sh for installing and setting up docker, for more infor check out<a href="https://github.com/diwusec/penttools"> pentdocks</a></p>
+
 # happy hacking!
