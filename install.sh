@@ -30,7 +30,6 @@ sudo apt-get install -y curl
 sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
 sudo apt-get install -y libpcap-dev
-sudo apt-get install -y htop
 sudo apt-get install -y wget
 sudo apt-get install -y build-essential
 sudo apt-get install -y gcc
@@ -42,6 +41,7 @@ sudo apt-get install -y bashtop
 sudo apt-get install -y net-tools
 sudo apt-get install -y jsbeautifier
 sudo apt-get install -y default-jdk
+sudo apt-get install -y openjdk-16-jdk
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
