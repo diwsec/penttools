@@ -3,7 +3,7 @@
 clear
 
 echo '#######################################################################'
-echo '#                          HACKING Setup                              #'
+echo '#                       Web pentesting Setup                          #'
 echo '#######################################################################'
 echo
 
@@ -206,6 +206,10 @@ echo "done"
 
 echo "installing getjs"
 go install github.com/003random/getJS@latest
+echo "done"
+
+echo "installing hakrevdns"
+go install github.com/hakluke/hakrevdns@latest
 echo "done"
 
 echo "installing meg"
