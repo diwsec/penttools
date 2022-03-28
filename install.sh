@@ -45,6 +45,10 @@ sudo apt-get install -y jsbeautifier
 sudo apt-get install -y default-jdk
 sudo apt-get install -y openjdk-16-jdk
 
+echo "installing censys"
+pip intsall censys
+echo "done"
+
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
 echo "moving ./feroxbuster to /usr/local/bin"
