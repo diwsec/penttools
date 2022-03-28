@@ -35,6 +35,7 @@ sudo apt-get install -y build-essential
 sudo apt-get install -y gcc
 sudo apt-get install -y tree
 sudo apt-get install -y nmap
+sudo apt-get install -y prips
 sudo apt-get install -y wireshark
 sudo apt-get install -y terminator
 sudo apt-get install -y bashtop
