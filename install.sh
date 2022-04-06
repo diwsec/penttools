@@ -230,6 +230,10 @@ echo "installing gospider"
 go install github.com/jaeles-project/gospider@latest
 echo "done"
 
+echo "gowitness"
+go install github.com/sensepost/gowitness@latest
+echo "done"
+
 echo "installing subjs"
 go install github.com/lc/subjs@latest
 echo "done"
