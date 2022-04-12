@@ -13,9 +13,9 @@ To install, you need some requirements
 sudo apt install git
 ```
 
-Now open `.rc` for exporting the following environment variables
+Now open `bash.rc` for exporting the following environment variables
  
-type this in terminal(use any editors)
+type this in terminal
 
 `vim ~/.bashrc`
 ```
