@@ -100,11 +100,6 @@ git clone https://github.com/s0md3v/XSStrike.git
 cd ~/tools/
 echo "done"
 
-echo "installing favifreak"
-git clone https://github.com/devanshbatham/FavFreak.git
-cd ~/tools/
-echo "done"
-
 echo "installing wad"
 git clone https://github.com/CERN-CERT/WAD.git
 cd ~/tools/
@@ -150,6 +145,11 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
+echo "installing openredirex"
+git clone https://github.com/devanshbatham/OpenRedireX.git
+cd ~/tools/
+echo "done"
+
 echo "installing match and replace"
 git clone https://github.com/Leoid/MatchandReplace.git
 cd ~/tools/
@@ -167,6 +167,16 @@ echo "done"
 
 echo "installing dnsgen"
 git clone https://github.com/ProjectAnte/dnsgen.git
+cd ~/tools/
+echo "done"
+
+echo "installing smuggler"
+git clone https://github.com/defparam/smuggler.git
+cd ~/tools/
+echo "done"
+
+echo "installing golinkfinder"
+git clone https://github.com/0xsha/GoLinkFinder.git
 cd ~/tools/
 echo "done"
 
@@ -264,6 +274,10 @@ echo "done"
 
 echo "installing httpx"
 go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+echo "done"
+
+echo "installing httprobe"
+go install github.com/tomnomnom/httprobe@latest
 echo "done"
 
 echo "installing qsreplace"
