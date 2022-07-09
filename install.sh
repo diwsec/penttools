@@ -96,11 +96,6 @@ git clone https://github.com/devploit/dontgo403.git
 cd ~/tools/
 echo "done"
 
-echo "installing breacher"
-git clone https://github.com/s0md3v/Breacher.git
-cd ~/tools/
-echo "done"
-
 echo "installing parth"
 git clone https://github.com/s0md3v/Parth.git
 cd ~/tools/
@@ -226,7 +221,7 @@ echo "installing hakrawler"
 go install github.com/hakluke/hakrawler@latest
 echo "done"
 
-echo "installing  crlfuzz"
+echo "installing crlfuzz"
 GO111MODULE=on go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
 echo "done"
 
@@ -234,20 +229,12 @@ echo "installing gospider"
 go install github.com/jaeles-project/gospider@latest
 echo "done"
 
-echo "gowitness"
+echo "installing gowitness"
 go install github.com/sensepost/gowitness@latest
-echo "done"
-
-echo "installing subjs"
-go install github.com/lc/subjs@latest
 echo "done"
 
 echo "installing fff"
 go install github.com/tomnomnom/fff@latest
-echo "done"
-
-echo "installing httprobe"
-go install github.com/tomnomnom/httprobe@latest 
 echo "done"
 
 echo "installing unfurl"
