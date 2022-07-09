@@ -42,7 +42,6 @@ sudo apt-get install -y bashtop
 sudo apt-get install -y net-tools
 sudo apt-get install -y jsbeautifier
 sudo apt-get install -y default-jdk
-sudo apt-get install -y openjdk-16-jdk
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
@@ -57,11 +56,6 @@ echo "done"
 
 echo "installing seclists"
 git clone https://github.com/danielmiessler/SecLists.git
-cd ~/tools/
-echo "done"
-
-echo "installing commonspeak2-wordlists"
-git clone https://github.com/assetnote/commonspeak2-wordlists.git
 cd ~/tools/
 echo "done"
 
