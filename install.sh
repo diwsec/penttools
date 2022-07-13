@@ -221,7 +221,7 @@ go install github.com/hakluke/hakrawler@latest
 echo "done"
 
 echo "installing crlfuzz"
-GO111MODULE=on go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
+go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
 echo "done"
 
 echo "installing gospider"
